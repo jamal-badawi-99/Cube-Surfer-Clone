@@ -3,7 +3,24 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - MainCube
+  - PlayerContainer
+  - Obstacle
+  - Pickup
+  - ObstacleParent
+  - PickupParent
+  - Cube
+  - Box
+  - CubeParent
+  - DestroyedCubes
+  - ObstacleCollection
+  - Hit
+  - Lava
+  - ProgressBar
+  - Platform
+  - SpeedBoost
+  - Cylinder
   layers:
   - Default
   - TransparentFX
