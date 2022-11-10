@@ -2,20 +2,26 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public static PlayerController Current;
     public float xLimit;
     public float horizontalSpeed;
     public float timeLeft = 0;
     private float _lastTouchedX;
     public float forwardSpeed = 10f;
     public Transform trans;
-    private bool isDead = false;
     public GameObject CubePrefab;
+    public ParticleSystem plusOne;
 
+    private void Awake()
+    {
+        GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>().setAlive(true);
+    }
     void FixedUpdate()
     {
-        if (isDead)
+        GameManager gm = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+        if (!gm.getAlive())
+        {
             return;
+        }
 
         Movement();
     }
@@ -59,17 +65,6 @@ public class PlayerController : MonoBehaviour
         Vector3 newPosition = new Vector3(newX, transform.position.y, transform.position.z + forwardSpeed * Time.deltaTime);
         transform.position = newPosition;
     }
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("PickupParent"))
-        {
-            other.enabled = false;
-            int count = other.gameObject.GetComponent<CubeInstantiator>().count;
-            Destroy(other.gameObject);
-            CreateCube(count);
-        }
-    }
-
 
 
 
@@ -80,6 +75,7 @@ public class PlayerController : MonoBehaviour
             GameObject cube = Instantiate(CubePrefab, transform);
             transform.position = new Vector3(transform.position.x, transform.position.y + 1, transform.position.z);
             cube.transform.position = new Vector3(transform.position.x, 1, transform.position.z);
+            ParticleSystem.Instantiate(plusOne, cube.transform).Play();
 
         }
 
@@ -96,28 +92,33 @@ public class PlayerController : MonoBehaviour
     {
         timeLeft = 1f;
     }
-    private void KillPlayer(string type)
+    public void KillPlayer(string type)
     {
 
-        isDead = true;
-        forwardSpeed = 0;
-
         GameObject player = GameObject.FindGameObjectWithTag("Player");
+        GameManager gm = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+        if (type == "Multiplier" || type == "FinishLine")
+        {
+            Debug.Log("You Win");
+            Debug.Log(gm.getMultiplier());
+        }
+
 
         player.transform.SetParent(null);
         player.GetComponent<Collider>().enabled = true;
         player.AddComponent<Rigidbody>();
         player.GetComponent<Rigidbody>().useGravity = true;
+        gameObject.GetComponent<Rigidbody>().useGravity = false;
 
-        GameObject playerContainer = GameObject.FindGameObjectWithTag("PlayerContainer");
-        playerContainer.transform.SetParent(null);
-        playerContainer.GetComponent<Collider>().enabled = true;
-        playerContainer.GetComponent<Collider>().isTrigger = false;
+        transform.SetParent(null);
+        gameObject.GetComponent<Collider>().enabled = true;
+        gameObject.GetComponent<Collider>().isTrigger = false;
         if (type == "Lava")
         {
 
             GameObject mainCube = GameObject.FindGameObjectWithTag("MainCube");
             Destroy(mainCube);
+            Destroy(player);
         }
     }
 

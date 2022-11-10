@@ -21,6 +21,12 @@ TagManager:
   - Platform
   - SpeedBoost
   - Cylinder
+  - Trap
+  - Multiplier
+  - FinishLine
+  - GameManager
+  - Diamond
+  - SoundsUsed
   layers:
   - Default
   - TransparentFX
@@ -28,9 +34,9 @@ TagManager:
   - Platform
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Env
+  - Text
+  - UIC
   - 
   - 
   - 
