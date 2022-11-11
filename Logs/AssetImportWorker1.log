@@ -1,0 +1,306 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.41f1 (7c19dc9acfda) revision 8133084'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 14188 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.41f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/jemox/Cube Surfer Clone
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59511
+Successfully changed project path to: C:/Users/jemox/Cube Surfer Clone
+C:/Users/jemox/Cube Surfer Clone
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 32.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.41f1 (7c19dc9acfda)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.41f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jemox/Cube Surfer Clone/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   
+    VRAM:     3978 MB
+    Driver:   31.0.15.2647
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.41f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.41f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001279 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 30.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.451 seconds
+Domain Reload Profiling:
+	ReloadAssembly (451ms)
+		BeginReloadAssembly (50ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (345ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (106ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (132ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (30ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (64ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002208 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.753 seconds
+Domain Reload Profiling:
+	ReloadAssembly (754ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (602ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (189ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (262ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1552 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.9 MB.
+System memory in use after: 85.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2008.
+Total: 2.702600 ms (FindLiveObjects: 0.161400 ms CreateObjectMapping: 0.042200 ms MarkObjects: 2.416200 ms  DeleteObjects: 0.082200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/ExternalAssets/Snow mountain tracks/Resources/Materials/barrierMat.mat
+  artifactKey: Guid(a60ebed664270c6448f56932f17da7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Resources/Materials/barrierMat.mat using Guid(a60ebed664270c6448f56932f17da7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a742eb9acb7c10c96016bb0b9aad9687') in 0.137335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/Resources/Materials/metal02.mat
+  artifactKey: Guid(7d245cc5587465c4caa1819a620fdf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Resources/Materials/metal02.mat using Guid(7d245cc5587465c4caa1819a620fdf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc4cbb5ffde087919c07214881337dc') in 0.037590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/Resources/Materials
+  artifactKey: Guid(fcc69199537c6e04bb3723d6ff970630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Resources/Materials using Guid(fcc69199537c6e04bb3723d6ff970630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4331ae46b82ca7a2d11d5515463a49c2') in 0.006207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/Resources
+  artifactKey: Guid(a739afc85f82c6e4484de20af2bc08e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Resources using Guid(a739afc85f82c6e4484de20af2bc08e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc26e4965ec6c67e22080d636c254f7') in 0.006613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.419628 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/Terrain textures
+  artifactKey: Guid(22f3533c404577e46af11e495cc1bb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Terrain textures using Guid(22f3533c404577e46af11e495cc1bb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb5c2d79822ee30f7f0df46ed59b0ed') in 0.012842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.115051 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/Resources/Models
+  artifactKey: Guid(9c9520dfc96b57244a36a906907b841d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Resources/Models using Guid(9c9520dfc96b57244a36a906907b841d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e49e702bfa5f9f0a84948c1fdcbd6f') in 0.011929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054751 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/Resources/Models/concrete 2.asset
+  artifactKey: Guid(ed41ebd2345b5924c90f919f45e87d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Resources/Models/concrete 2.asset using Guid(ed41ebd2345b5924c90f919f45e87d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eed8c608fe0a4877041a77495d8b17a') in 0.057812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/Resources/Models/poles.asset
+  artifactKey: Guid(ebda0cb17de4a154a806302ef3a464f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Resources/Models/poles.asset using Guid(ebda0cb17de4a154a806302ef3a464f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66989c5002f7554e23dcfc7cf640c7f2') in 0.032394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/Resources/Models/concrete.asset
+  artifactKey: Guid(12d78428deb775d448b5cc0326e43380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Resources/Models/concrete.asset using Guid(12d78428deb775d448b5cc0326e43380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a924ae14a634cc273954ed7016b340ee') in 0.030478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/Resources/Models/road.asset
+  artifactKey: Guid(0a137320cb1170041a34e81b90fabe33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Resources/Models/road.asset using Guid(0a137320cb1170041a34e81b90fabe33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f052298f3a9dde6103cd851dd765199e') in 0.023546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.012678 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/Resources/Textures
+  artifactKey: Guid(30426bcebd753244fa5299db0bba3954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Resources/Textures using Guid(30426bcebd753244fa5299db0bba3954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1269df14920d584f2fce802429d612c') in 0.007687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.234244 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/Resources/Textures/ConcreteBarePoleTGA.tga
+  artifactKey: Guid(91f8d73a3f33ceb478d1d917161d8315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Resources/Textures/ConcreteBarePoleTGA.tga using Guid(91f8d73a3f33ceb478d1d917161d8315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7015347b9fde46b095a996eaeef24b49') in 0.025201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/Resources/Textures/road_b.jpg
+  artifactKey: Guid(dbd66363f37e6534880f241dfae1d06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Resources/Textures/road_b.jpg using Guid(dbd66363f37e6534880f241dfae1d06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781c2e67178633cdab3862283d6419f4') in 0.037182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/Resources/Textures/metal02.jpg
+  artifactKey: Guid(0f12cdaefbb6f50438b533b9e05de514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Resources/Textures/metal02.jpg using Guid(0f12cdaefbb6f50438b533b9e05de514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b95b760938e6c8ff65911383f59c4e') in 0.023726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/Resources/Textures/road2Lane_snow.png
+  artifactKey: Guid(1fb995bdef7024c47b67d5e57787afc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Resources/Textures/road2Lane_snow.png using Guid(1fb995bdef7024c47b67d5e57787afc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eba60db4ab386d4f2b50d387d4acd94') in 0.040126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.454619 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/Terrain textures/Normal
+  artifactKey: Guid(a3b246be4e1ebc543ab280563aac7fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Terrain textures/Normal using Guid(a3b246be4e1ebc543ab280563aac7fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ad07f144108150d205e38236521999') in 0.011515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027670 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/Terrain textures/Normal/Ground_FrozenTundra.tga
+  artifactKey: Guid(5ae2908d6f84a9941a36ca97af555423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Terrain textures/Normal/Ground_FrozenTundra.tga using Guid(5ae2908d6f84a9941a36ca97af555423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f5b6cb65a93f687a9975fe140d912c') in 0.026224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/Terrain textures/Normal/ground_Grass1.tga
+  artifactKey: Guid(f1602f1b31e8e8b4fb10922f3e8fa207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Terrain textures/Normal/ground_Grass1.tga using Guid(f1602f1b31e8e8b4fb10922f3e8fa207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25ab5003ba2d4ecff021f217bc8e14e') in 0.026771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.322521 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/Terrain textures/Albedo
+  artifactKey: Guid(454fd883bd3b523499f568b53a120bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Terrain textures/Albedo using Guid(454fd883bd3b523499f568b53a120bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834850ec51ac133fc8c200312063968a') in 0.006729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044667 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/Terrain textures/Albedo/ground_Grass1.tga
+  artifactKey: Guid(8db482acd965b6d41bc960fab5b61e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Terrain textures/Albedo/ground_Grass1.tga using Guid(8db482acd965b6d41bc960fab5b61e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3d69d3f7d8f53d424ffe4edc4fbd0a') in 0.029081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/Terrain textures/Albedo/rock 1.tga
+  artifactKey: Guid(88e530318f93b184aa0e7c056b768a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Terrain textures/Albedo/rock 1.tga using Guid(88e530318f93b184aa0e7c056b768a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5210146352e6c30eba67dea0df2696ef') in 0.025492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/Terrain textures/Albedo/ice.tga
+  artifactKey: Guid(e0f4013c15106434a9b9cd585709ed08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Terrain textures/Albedo/ice.tga using Guid(e0f4013c15106434a9b9cd585709ed08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b230ed9ae78aa901b9a4e04a1debc94e') in 0.020172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/Terrain textures/Albedo/rock 2.tga
+  artifactKey: Guid(e2cd37f17a42441438655d25bf6552d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/Terrain textures/Albedo/rock 2.tga using Guid(e2cd37f17a42441438655d25bf6552d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b115d4a81f21c1b5a956ade704577e') in 0.026133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.589584 seconds.
+  path: Assets/ExternalAssets/Snow mountain tracks/terrain.asset
+  artifactKey: Guid(d216ab1bb2f42e44bb0c77a040f8eb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/Snow mountain tracks/terrain.asset using Guid(d216ab1bb2f42e44bb0c77a040f8eb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Received signal SIGSEGV
+Stack trace:
+0x00007ff6b151dcca (Unity) CreateAssetToGUIDMappingV2
+0x00007ff6b14c21a0 (Unity) AssetDatabase::CreateAssetToGUIDMapping
+0x00007ff6b0a32f20 (Unity) SplatDatabase::CreateTerrainLayerAsset
+0x00007ff6b0a31b70 (Unity) SplatDatabase::ConvertSplatsToTerrainLayers
+0x00007ff6b0a2ea5c (Unity) SplatDatabase::AwakeFromLoad
+0x00007ff6b0a6ca36 (Unity) TerrainData::AwakeFromLoad
+0x00007ff6b0667cef (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff6b0668682 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff6b06687f3 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff6b063aa54 (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff6b063b5a4 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff6b063ec39 (Unity) PersistentManager::ReadObject
+0x00007ff6b14bab41 (Unity) WritePreviews
+0x00007ff6b14b6891 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff6b155a4a3 (Unity) ImportToObjects
+0x00007ff6b1559478 (Unity) ImportAsset
+0x00007ff6b14f2288 (Unity) AssetImportWorker::Import
+0x00007ff6b1517a5c (Unity) <lambda_6c894734dbee50c93f7912c8ad287316>::operator()
+0x00007ff6b15a77c2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff6b1593662 (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff6b1595574 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff6b15a5aff (Unity) IOService::Run
+0x00007ff6b15417cb (Unity) RunAssetImportWorkerClientV2
+0x00007ff6b1541820 (Unity) RunAssetImporterV2
+0x00007ff6b0fb59c8 (Unity) Application::InitializeProject
+0x00007ff6b1437132 (Unity) WinMain
+0x00007ff6b2b03dfe (Unity) __scrt_common_main_seh
+0x00007ff9882e244d (KERNEL32) BaseThreadInitThunk
+0x00007ff98938dfb8 (ntdll) RtlUserThreadStart
+

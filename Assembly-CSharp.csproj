@@ -40,14 +40,12 @@
      <Compile Include="Assets\Scripts\CubeBehaviour.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\ScenesController.cs" />
+     <Compile Include="Assets\Scripts\ProgressBarController.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
-     <Compile Include="Assets\ExternalAssets\ProgressBar\Script\ProgressBar.cs" />
      <Compile Include="Assets\Scripts\CubeInstantiator.cs" />
      <Compile Include="Assets\Scripts\CylinderBehaviour.cs" />
      <Compile Include="Assets\Scripts\SoundManager.cs" />
-     <Compile Include="Assets\ExternalAssets\ProgressBar\Script\ProgressBarCircle.cs" />
-     <Compile Include="Assets\Scripts\ProgressBarController.cs" />
-     <Compile Include="Assets\Scripts\ScenesController.cs" />
      <None Include="Assets\ExternalAssets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\ExternalAssets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\ExternalAssets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

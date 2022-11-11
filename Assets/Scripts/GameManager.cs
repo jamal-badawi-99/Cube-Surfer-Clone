@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public ProgressBar pb;
     public GameObject playerContainer;
 
     private int Multiplier = 0;
@@ -74,6 +73,10 @@ public class GameManager : MonoBehaviour
     {
         return Multiplier;
     }
+
+    public TextMeshProUGUI PanelMultiplier;
+    public TextMeshProUGUI PanelScore;
+
     public void EndGame(string type)
     {
         setAlive(false);
@@ -85,8 +88,8 @@ public class GameManager : MonoBehaviour
         setOver(true);
         if (type == "Multiplier" || type == "FinishLine")
         {
-            Debug.Log("You Win");
-            Debug.Log(getMultiplier());
+            PanelScore.text = coins * Multiplier + "";
+            PanelMultiplier.text = "x" + Multiplier;
             PlayerAnimator.SetBool("isVictorious", true);
             Invoke("EnableLevelComplete", 2f);
             return;
