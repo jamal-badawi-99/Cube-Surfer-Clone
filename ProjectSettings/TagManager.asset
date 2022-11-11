@@ -27,6 +27,8 @@ TagManager:
   - GameManager
   - Diamond
   - SoundsUsed
+  - PanelMultiplier
+  - PanelScore
   layers:
   - Default
   - TransparentFX

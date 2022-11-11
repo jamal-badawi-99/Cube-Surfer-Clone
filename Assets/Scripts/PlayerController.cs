@@ -92,34 +92,7 @@ public class PlayerController : MonoBehaviour
     {
         timeLeft = 1f;
     }
-    public void KillPlayer(string type)
-    {
-
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-        GameManager gm = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
-        if (type == "Multiplier" || type == "FinishLine")
-        {
-            Debug.Log("You Win");
-            Debug.Log(gm.getMultiplier());
-        }
-
-
-        player.transform.SetParent(null);
-        player.GetComponent<Collider>().enabled = true;
-        player.AddComponent<Rigidbody>();
-        player.GetComponent<Rigidbody>().useGravity = true;
-        gameObject.GetComponent<Rigidbody>().useGravity = false;
-
-        transform.SetParent(null);
-        gameObject.GetComponent<Collider>().enabled = true;
-        gameObject.GetComponent<Collider>().isTrigger = false;
-        if (type == "Lava")
-        {
-
-            GameObject mainCube = GameObject.FindGameObjectWithTag("MainCube");
-            Destroy(mainCube);
-            Destroy(player);
-        }
-    }
+  
+       
 
 }
