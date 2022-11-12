@@ -14,11 +14,18 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>().setAlive(true);
+        Color color = GameObject.FindGameObjectWithTag("ColorManager").GetComponent<ColorManager>().getCubeColor();
+        GameObject.FindGameObjectWithTag("MainCube").GetComponent<Renderer>().material.color = color;
+
+
+
+
     }
     void FixedUpdate()
     {
         GameManager gm = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
-        if (!gm.getAlive())
+        if (!gm.getAlive() || gm.getPauseStatus())
+
         {
             return;
         }
@@ -70,9 +77,15 @@ public class PlayerController : MonoBehaviour
 
     public void CreateCube(int count)
     {
+        Color color = GameObject.FindGameObjectWithTag("ColorManager").GetComponent<ColorManager>().getCubeColor();
+
         for (int i = 0; i < count; i++)
         {
             GameObject cube = Instantiate(CubePrefab, transform);
+
+
+            cube.GetComponent<Renderer>().material.SetColor("_Color", color);
+
             transform.position = new Vector3(transform.position.x, transform.position.y + 1, transform.position.z);
             cube.transform.position = new Vector3(transform.position.x, 1, transform.position.z);
             ParticleSystem.Instantiate(plusOne, cube.transform).Play();
@@ -92,7 +105,7 @@ public class PlayerController : MonoBehaviour
     {
         timeLeft = 1f;
     }
-  
-       
+
+
 
 }

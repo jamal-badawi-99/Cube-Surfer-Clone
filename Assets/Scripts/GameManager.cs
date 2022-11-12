@@ -9,12 +9,15 @@ public class GameManager : MonoBehaviour
 
     private bool FinishLineStatus = false;
     public SoundAudioClip[] soundAudioClipArray;
+    private bool pause = false;
     private bool isAlive = false;
     private bool isOver = false;
     public int coins = 0;
     public TextMeshProUGUI coinsText;
     public GameObject LevelCompletePanel;
     public GameObject LevelIncompletePanel;
+
+
     public void EnableLevelComplete()
     {
         LevelCompletePanel.SetActive(true);
@@ -24,7 +27,14 @@ public class GameManager : MonoBehaviour
         LevelIncompletePanel.SetActive(true);
     }
 
-
+    public void PauseResumeGame()
+    {
+        pause = !pause;
+    }
+    public bool getPauseStatus()
+    {
+        return pause;
+    }
     public void setAlive(bool status)
     {
         isAlive = status;
@@ -44,8 +54,10 @@ public class GameManager : MonoBehaviour
     }
     void Update()
     {
-
-        coinsText.text = coins.ToString("0");
+        if (coinsText != null)
+        {
+            coinsText.text = coins.ToString("0");
+        }
 
     }
     [System.Serializable]

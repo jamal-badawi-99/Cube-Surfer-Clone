@@ -29,6 +29,13 @@ TagManager:
   - SoundsUsed
   - PanelMultiplier
   - PanelScore
+  - PauseMenu
+  - OptionsCanvas
+  - MainMenuCanvas
+  - GroundObject
+  - MainMenu
+  - ChangeCube
+  - ColorManager
   layers:
   - Default
   - TransparentFX

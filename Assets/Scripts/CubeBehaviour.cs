@@ -155,11 +155,16 @@ public class CubeBehaviour : MonoBehaviour
     private void CreateCube(int count)
     {
 
+        Color color = GameObject.FindGameObjectWithTag("ColorManager").GetComponent<ColorManager>().getCubeColor();
+
         for (int i = 0; i < count; i++)
         {
 
             Transform parent = GameObject.FindGameObjectWithTag("PlayerContainer").transform;
             GameObject cube = Instantiate(CubePrefab, parent);
+
+            cube.GetComponent<Renderer>().material.SetColor("_Color", color);
+
             parent.position = new Vector3(parent.position.x, parent.position.y + 1, parent.position.z);
             cube.transform.position = new Vector3(parent.position.x, 1, parent.position.z);
             ParticleSystem.Instantiate(plusOne, cube.transform).Play();

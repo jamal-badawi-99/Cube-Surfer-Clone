@@ -9,6 +9,7 @@ public class CameraFollow : MonoBehaviour
     void Start()
     {
         offset = transform.position - player.transform.position;
+        gm = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     void Update()
