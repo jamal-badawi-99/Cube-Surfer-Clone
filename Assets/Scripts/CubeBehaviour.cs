@@ -148,7 +148,12 @@ public class CubeBehaviour : MonoBehaviour
 
             transform.SetParent(destroyedCubes);
         }
-        SoundManager.PlaySound(SoundManager.Sound.Obstacle);
+        if (transform.tag == "Cube")
+        {
+            SoundManager.PlaySound(SoundManager.Sound.Obstacle);
+
+        }
+        transform.tag = "Hit";
 
     }
 
