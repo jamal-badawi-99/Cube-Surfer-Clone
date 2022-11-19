@@ -36,6 +36,9 @@ TagManager:
   - MainMenu
   - ChangeCube
   - ColorManager
+  - LevelCompletePanel
+  - LevelIncompletePanel
+  - CoinsText
   layers:
   - Default
   - TransparentFX

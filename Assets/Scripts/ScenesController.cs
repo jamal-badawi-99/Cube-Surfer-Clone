@@ -12,6 +12,7 @@ public class ScenesController : MonoBehaviour
     public void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
     }
 
 }

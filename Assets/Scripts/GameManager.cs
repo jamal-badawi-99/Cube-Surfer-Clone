@@ -16,8 +16,8 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI coinsText;
     public GameObject LevelCompletePanel;
     public GameObject LevelIncompletePanel;
-
-
+    public TextMeshProUGUI PanelMultiplier;
+    public TextMeshProUGUI PanelScore;
     public void EnableLevelComplete()
     {
         LevelCompletePanel.SetActive(true);
@@ -85,9 +85,11 @@ public class GameManager : MonoBehaviour
     {
         return Multiplier;
     }
+    public void CollectCoin()
+    {
+        coins++;
+    }
 
-    public TextMeshProUGUI PanelMultiplier;
-    public TextMeshProUGUI PanelScore;
 
     public void EndGame(string type)
     {
@@ -130,8 +132,5 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void CollectCoin()
-    {
-        coins++;
-    }
+
 }

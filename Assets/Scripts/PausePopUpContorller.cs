@@ -11,6 +11,7 @@ public class PausePopUpContorller : MonoBehaviour
     public void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
     }
     public void ResumeGame()
     {

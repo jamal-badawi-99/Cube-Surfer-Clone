@@ -123,13 +123,13 @@ public class CubeBehaviour : MonoBehaviour
     {
         other.tag = "Hit";
 
-        // for (int i = 0; i < other.transform.parent.parent.childCount; i++)
-        // {
-        //     for (int j = 0; j < other.transform.parent.parent.GetChild(i).childCount; j++)
-        //     {
-        //         other.transform.parent.parent.GetChild(i).GetChild(j).tag = "Hit";
-        //     }
-        // }
+        for (int i = 0; i < other.transform.parent.parent.childCount; i++)
+        {
+            for (int j = 0; j < other.transform.parent.parent.GetChild(i).childCount; j++)
+            {
+                other.transform.parent.parent.GetChild(i).GetChild(j).tag = "Hit";
+            }
+        }
 
         if (transform.tag == "MainCube")
         {
